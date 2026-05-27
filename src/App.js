@@ -18,7 +18,7 @@ function App() {
             path="/"
             element={
               <>
-                <HeroSection />
+                <HeroSection key="home-page"/>
                 <Programs />
                 <Reasons />
                 <Plans />
@@ -31,7 +31,7 @@ function App() {
             path="/blog"
             element={
               <>
-                <HeroSection />
+                <HeroSection key="blog-page"/>
                 <Blog />
               </>
             }
