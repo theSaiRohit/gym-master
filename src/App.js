@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/Footer";
+import CookieConsent from "./components/cookie-consent/CookieConsent";
 import HeroSection from "./components/hero-section/HeroSection";
 import Join from "./components/join/Join";
 import Plans from "./components/plans/Plans";
@@ -38,6 +39,7 @@ function App() {
           />
         </Routes>
         <Footer />
+        <CookieConsent />
       </div>
     </Router>
   );
