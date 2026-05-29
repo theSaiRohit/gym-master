@@ -17,6 +17,7 @@ const CookieConsent = () => {
   }, []);
 
   const accept = () => {
+    alert("accept");
     if (typeof window.setOptiCookieConsent === "function") {
       window.setOptiCookieConsent({ statistics: true });
     } else {
