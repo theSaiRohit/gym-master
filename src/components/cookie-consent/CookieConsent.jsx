@@ -20,9 +20,11 @@ const CookieConsent = () => {
     alert("accept");
     if (typeof window.setOptiCookieConsent === "function") {
       window.setOptiCookieConsent({ statistics: true });
+      alert("1");
     } else {
       try {
         localStorage.setItem("opti_consent", JSON.stringify({ statistics: true }));
+        alert("2");
       } catch (e) {}
     }
     setVisible(false);
