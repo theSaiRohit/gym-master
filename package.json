@@ -22,6 +22,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "overrides": {
+    "@tootallnate/once": "^2.0.1",
+    "serialize-javascript": "^7.0.5",
+    "uuid": "^11.1.1"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
